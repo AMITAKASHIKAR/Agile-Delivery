@@ -22,8 +22,8 @@ install:
 
 script:
   - ls
-  - chmod +x hello.py
-  - ./hello.py
+  - chmod +x hello.sh
+  - ./hello.sh
   
 after-script:
   - echo "End of pipeline"
