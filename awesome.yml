@@ -3,13 +3,11 @@ osx_image: xcode10.2
 
 language: bash
 
-git:
-  depth:false
+before-install:
+  -whoami
+  -echo "Start of pipeline"
+  -HOMEBREW_NO_AUTO_UPDATE=1
   
-cache:
-  -directories:
-    -$HOME/Library/Caches/Homebrew
-
 install:
   -whoami
   -echo "Start of the pipleine"
