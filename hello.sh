@@ -1,1 +1,3 @@
-echo "Hello! Welcome to Travis!"
+#! /bin/bash
+
+echo "Hello Welcome to Travis"
